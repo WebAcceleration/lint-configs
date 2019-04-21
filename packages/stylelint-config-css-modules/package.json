@@ -1,6 +1,6 @@
 {
   "name": "@webacceleration/stylelint-config-css-modules",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "stylelint-config-css-modules",
   "keywords": [
     "stylelint",
@@ -41,11 +41,11 @@
     "stylelint": ">= 9.10.1"
   },
   "devDependencies": {
-    "@webacceleration/markdownlint-config-base": "^0.0.1",
+    "@webacceleration/markdownlint-config-base": "^0.0.3",
     "markdownlint-cli": "^0.14.0",
     "stylelint": "^9.10.1"
   },
   "dependencies": {
-    "@webacceleration/stylelint-config-base": "^0.0.1"
+    "@webacceleration/stylelint-config-base": "^0.0.3"
   }
 }
