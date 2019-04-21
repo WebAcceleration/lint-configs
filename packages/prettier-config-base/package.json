@@ -1,6 +1,6 @@
 {
   "name": "@webacceleration/prettier-config-base",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "prettier-config-base",
   "keywords": [
     "prettier",
@@ -33,7 +33,7 @@
     "prettier": ">= 1.16.4"
   },
   "devDependencies": {
-    "@webacceleration/markdownlint-config-base": "^0.0.1",
+    "@webacceleration/markdownlint-config-base": "^0.0.2",
     "markdownlint-cli": "^0.14.0",
     "prettier": "^1.16.4"
   }
