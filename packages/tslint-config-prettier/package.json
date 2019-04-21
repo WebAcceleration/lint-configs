@@ -1,6 +1,6 @@
 {
   "name": "@webacceleration/tslint-config-prettier",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "tslint-config-prettier",
   "keywords": [
     "tslint",
@@ -42,12 +42,12 @@
     "typescript": ">= 3.3.1"
   },
   "dependencies": {
-    "@webacceleration/tslint-config-base": "^0.0.1",
+    "@webacceleration/tslint-config-base": "^0.0.4",
     "tslint-config-prettier": "^1.17.0",
     "tslint-plugin-prettier": "^2.0.1"
   },
   "devDependencies": {
-    "@webacceleration/markdownlint-config-base": "^0.0.1",
+    "@webacceleration/markdownlint-config-base": "^0.0.4",
     "markdownlint-cli": "^0.14.0",
     "prettier": "^1.16.4",
     "tslint": "^5.12.1",
