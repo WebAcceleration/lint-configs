@@ -1,0 +1,44 @@
+{
+  "name": "@webacceleration/markdownlint-config-base",
+  "version": "0.0.1",
+  "description": "markdownlint-config-base",
+  "keywords": [
+    "markdownlint",
+    "markdownlint-config",
+    "lint",
+    "linting",
+    "markdown"
+  ],
+  "author": {
+    "name": "Ilya Zaytsev",
+    "email": "iam.ztsv@gmail.com"
+  },
+  "homepage": "https://github.com/WebAcceleration/lint-configs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WebAcceleration/lint-configs"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "main": ".markdownlintrc",
+  "files": [
+    ".markdownlintrc"
+  ],
+  "scripts": {
+    "precommit": "lint-staged && npm run markdownlint:check",
+    "prepublishOnly": "npm run markdownlint:check",
+    "markdownlint:check": "markdownlint -i CHANGELOG.md -c ./.markdownlintrc *.md"
+  },
+  "engines": {
+    "node": ">= 10.8.0",
+    "npm": ">= 6.2.0"
+  },
+  "peerDependencies": {
+    "markdownlint-cli": ">= 0.14.0"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.14.0"
+  }
+}

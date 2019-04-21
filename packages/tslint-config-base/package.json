@@ -1,0 +1,53 @@
+{
+  "name": "@webacceleration/tslint-config-base",
+  "version": "0.0.1",
+  "description": "tslint-config-base",
+  "keywords": [
+    "tslint",
+    "tslint-config",
+    "lint",
+    "linting",
+    "typescript"
+  ],
+  "author": {
+    "name": "Ilya Zaytsev",
+    "email": "iam.ztsv@gmail.com"
+  },
+  "homepage": "https://github.com/WebAcceleration/lint-configs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WebAcceleration/lint-configs"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "rules"
+  ],
+  "engines": {
+    "node": ">= 10.8.0",
+    "npm": ">= 6.2.0"
+  },
+  "scripts": {
+    "precommit": "lint-staged && npm run markdownlint:check",
+    "prepublishOnly": "npm run markdownlint:check",
+    "markdownlint:check": "markdownlint -i CHANGELOG.md -c ./node_modules/@webacceleration/markdownlint-config-base/.markdownlintrc *.md"
+  },
+  "peerDependencies": {
+    "tslint": ">= 5.12.1",
+    "typescript": ">= 3.3.1"
+  },
+  "devDependencies": {
+    "@webacceleration/markdownlint-config-base": "^0.0.1",
+    "markdownlint-cli": "^0.14.0",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.1"
+  },
+  "dependencies": {
+    "tslint-consistent-codestyle": "^1.15.0",
+    "tslint-eslint-rules": "^5.4.0"
+  }
+}

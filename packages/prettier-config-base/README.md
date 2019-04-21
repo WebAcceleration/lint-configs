@@ -1,0 +1,1 @@
+# @webacceleration/prettier-config-base
