@@ -1,0 +1,1 @@
+# @webacceleration/markdownlint-config-base

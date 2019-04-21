@@ -1,0 +1,1 @@
+# @webacceleration/tslint-config-prettier

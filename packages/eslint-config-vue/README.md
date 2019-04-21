@@ -1,0 +1,1 @@
+# @webacceleration/eslint-config-vue

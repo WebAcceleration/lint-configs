@@ -1,0 +1,1 @@
+# @webacceleration/stylelint-config-base

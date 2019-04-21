@@ -1,0 +1,27 @@
+{
+  "name": "@webacceleration/lint-conifgs",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "Ilya Zaytsev",
+    "email": "iam.ztsv@gmail.com"
+  },
+  "homepage": "https://github.com/WebAcceleration/lint-configs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WebAcceleration/lint-configs"
+  },
+  "license": "MIT",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "commitmsg": "commitlint -e $GIT_PARAMS"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "@commitlint/config-lerna-scopes": "^7.5.1",
+    "husky": "^1.3.1",
+    "lerna": "^3.10.8",
+    "lint-staged": "^8.1.4"
+  }
+}
